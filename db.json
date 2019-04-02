@@ -1,0 +1,86 @@
+{
+        "Musicas":[
+        {
+            "id":1,
+            "music_id":"2909",
+            "title":"Pain"
+        },
+        {
+            "id":2,
+            "music_id":"2310",
+            "title":"Haunted"
+        },
+        {
+            "id":3,
+            "music_id":"1403",
+            "title":" I Miss The Misery"
+        },
+        {
+            "id":4,
+            "music_id":"1702",
+            "title":"Monster"
+        },
+        {
+            "id":5,
+            "music_id":"2309",
+            "title":"Joker and The Thief"
+        }
+    ],
+    "Artista":[
+        {
+            "id":1,
+            "bnd_id":"6262",
+            "name":"Three Days Grace"
+        },
+        {
+            "id":2,
+            "bnd_id":"6547",
+            "name":"Disturbed"
+        },
+        {
+            "id":3,
+            "bnd_id":"8754",
+            "name":"Halerstorm"
+        },
+        {
+            "id":4,
+            "bnd_id":"3521",
+            "name":"Skillet"
+        },
+        {
+            "id":5,
+            "bnd_id":"2856",
+            "name":"Wolfmother"
+        }
+        
+    ],
+    "Album":[
+        {
+            "id":1,
+            "music_id":"1685",
+            "A_name":"One-X"
+        },
+        {
+            "id":2,
+            "music_id":"9352",
+            "A_name":"Asylum"
+        },
+        {
+            "id":3,
+            "music_id":"1854",
+            "A_name":"The Strange Case of..."
+        },
+        {
+            "id":4,
+            "music_id":"3526",
+            "A_name":"Awake"
+        },
+        {
+            "id":5,
+            "music_id":"7458",
+            "A_name":"Wolfmother 10yrs"
+        }
+        
+    ]
+
+}

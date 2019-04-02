@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Bursca
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar color="dark"
+  [(ngModel)]="title"
+  showCancelButton 
+  cancelButtonText="Cancelar" 
+  Placeholder="Localizar Música" 
+  animated 
+  (change)="getMusic()"
+  ></ion-searchbar>
+  
+  <ion-img src="/assets/home_wpp.jpg"></ion-img>
+
+  <ion-searchbar color="danger"
+  [(ngModel)]="name"
+  showCancelButton 
+  cancelButtonText="Cancelar" 
+  Placeholder="Localizar Artista" 
+  animated 
+  (change)="consultaMusicas()"
+  ></ion-searchbar>
+
+  <ion-img src="/assets/artist.jpg"></ion-img>
+  
+  <ion-searchbar color="primary"
+  [(ngModel)]="A_name"
+  showCancelButton 
+  cancelButtonText="Cancelar" 
+  Placeholder="Localizar Albúm" 
+  animated 
+  (change)="getAlbum()"
+  ></ion-searchbar>
+
+
+<ion-img src="/assets/album.jpg"></ion-img>
+</ion-content>
