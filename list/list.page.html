@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Busca
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar color="dark"
+  [(ngModel)]="nomeMusica"
+  showCancelButton 
+  cancelButtonText="Cancelar" 
+  Placeholder="Localizar Música" 
+  animated 
+  (change)="consultaMusica()"
+  ></ion-searchbar>
+  
+  <ion-img src="/assets/home_wpp.jpg"></ion-img>
+  
+
+
+  <ion-searchbar color="danger"
+  [(ngModel)]="nomeArtista"
+  showCancelButton 
+  cancelButtonText="Cancelar" 
+  Placeholder="Localizar Artista" 
+  animated 
+  (change)="consultaArtista()"
+  ></ion-searchbar>
+
+  <ion-img src="/assets/artist.jpg"></ion-img>
+  
+  <ion-searchbar color="primary"
+  [(ngModel)]="nomeAlbum"
+  showCancelButton 
+  cancelButtonText="Cancelar" 
+  Placeholder="Localizar Albúm" 
+  animated 
+  (change)="consultaAlbum()"
+  ></ion-searchbar>
+
+
+<ion-img src="/assets/album.jpg"></ion-img>
+</ion-content>
